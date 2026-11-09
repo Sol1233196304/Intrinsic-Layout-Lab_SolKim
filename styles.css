@@ -138,8 +138,8 @@ h1 {
   }
 }
 
-@media (width > 650px){
-  /*tablet*/
+@media (width > 450px){
+  /*Needs at least 400px for intended design*/
   .guide-grid{
   grid-template-columns: repeat(2, minmax(200px, 1fr));
 }
@@ -151,10 +151,10 @@ h1 {
 
 }
 }
-@media (width > 970px){
-  /*laptop*/
+@media (width > 900px){
+  /*Needs at least 900px for intended design*/
   .guide-grid{
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: var(--space-3);
 }
   .feature-shell {
