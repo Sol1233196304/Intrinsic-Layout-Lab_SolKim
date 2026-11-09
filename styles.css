@@ -69,9 +69,8 @@ h1 {
   .guide-grid {
     /* Build an intrinsic grid using repeat(), auto-fit/auto-fill, and minmax(). */
     display: grid;
-    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
-    grid-auto-flow: dense;
   }
 
 
